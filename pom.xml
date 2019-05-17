@@ -14,6 +14,15 @@
 	<!-- FIXME change it to the project's website -->
 	<url>http://www.example.com</url>
 
+	<contributors>
+		<contributor>
+			<name>David van Hoose</name>
+			<email>dvanhoose@flvc.org</email>
+			<organization>Florida Virtual Campus</organization>
+			<organizationUrl>https://www.flvc.org/</organizationUrl>
+		</contributor>
+	</contributors>
+
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<maven.compiler.source>1.8</maven.compiler.source>
