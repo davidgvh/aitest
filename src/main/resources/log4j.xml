@@ -14,9 +14,13 @@
 			<param name="ConversionPattern" value="%d %-5p %c(%F:%L) - %m%n" />
 		</layout>
 	</appender>
+	<appender name="aiAppender" class="com.microsoft.applicationinsights.log4j.v1_2.ApplicationInsightsAppender">
+		<param name="instrumentationKey" value="f80334f7-bc4d-4994-864a-3f08b3c7dd88" />
+	</appender>
 	<root>
 		<priority value="ALL" />
 		<appender-ref ref="console" />
 		<appender-ref ref="logfile" />
+		<appender-ref ref="aiAppender" />
 	</root>
 </log4j:configuration>
