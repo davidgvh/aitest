@@ -1,0 +1,16 @@
+# Maven target directory
+target
+
+# Eclipse user settings
+.settings
+
+# Eclipse project files
+.classpath
+.project
+
+# Visual Studio Code
+.vscode
+.factorypath
+
+# Other local files
+.tern-project
